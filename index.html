@@ -5,27 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="style.css"> -->
-    <link id="css-file" rel="stylesheet" type="text/css" href="style.css">
+    <link id="css-file" rel="stylesheet" type="text/css" href="css/index1.css">
     <title>Hamza Raza</title>
 </head>
+<button id="toggle-btn" class="toggle-button">Toggle CSS</button>
 <body>
-    <button id="toggle-btn">Toggle CSS</button>
-
-  <script>
-    let toggleBtn = document.querySelector("#toggle-btn");
-    let cssFile = document.querySelector("#css-file");
-    let cssFileName = "style.css";
-
-    toggleBtn.addEventListener("click", function() {
-      if (cssFileName === "style.css") {
-        cssFile.setAttribute("href", "style1.css");
-        cssFileName = "style1.css";
-      } else {
-        cssFile.setAttribute("href", "style.css");
-        cssFileName = "style.css";
-      }
-    });
-  </script>
+    
+  
     <div class="header rcorners1">
         <p class="top-words">The Personal Website of</p> 
         <h1 class="bottom-words">Hamza Raza</h1>
@@ -47,5 +33,6 @@
         </div>       
     </div>
     <!-- </div> -->
+    <script src="js/index.js"></script>
 </body>
 </html>

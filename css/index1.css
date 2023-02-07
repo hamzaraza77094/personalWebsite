@@ -1,5 +1,6 @@
 body {    
     background: #F4F1DE;
+    margin-top: 5px;
 } 
   
 .full-background {
@@ -142,4 +143,32 @@ a {
   
   .rounded-button-plus a {
     text-decoration: none !important;
+}
+
+/* toggle button */
+/* #toggle-btn {
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+} */
+
+.toggle-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  /* margin-top: 20px; */
+  margin-bottom: 0px;
+}
+.toggle-btn:hover {
+  background-color: #000;
+  color: #fff; 
 }

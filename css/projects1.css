@@ -165,3 +165,20 @@ nav {
 .special-img2 {
     margin-top: 20px;
 }
+
+
+.toggle-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  /* margin-top: 20px; */
+  margin-bottom: 0px;
+}
+.toggle-btn:hover {
+  background-color: #000;
+  color: #fff; 
+}
