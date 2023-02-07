@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link id="css-file" rel="stylesheet" type="text/css" href="style.css">
     <title>Hamza Raza</title>
 </head>
 <body>
+    <button id="toggle-btn">Toggle CSS</button>
+
+  <script>
+    let toggleBtn = document.querySelector("#toggle-btn");
+    let cssFile = document.querySelector("#css-file");
+    let cssFileName = "style.css";
+
+    toggleBtn.addEventListener("click", function() {
+      if (cssFileName === "style.css") {
+        cssFile.setAttribute("href", "style1.css");
+        cssFileName = "style1.css";
+      } else {
+        cssFile.setAttribute("href", "style.css");
+        cssFileName = "style.css";
+      }
+    });
+  </script>
     <div class="header rcorners1">
         <p class="top-words">The Personal Website of</p> 
         <h1 class="bottom-words">Hamza Raza</h1>
@@ -23,7 +41,7 @@
                 <ul class="button-list2">
                     <li><a href="services.html" class="bubble"><button class="grow bubble rounded-button">Services</button></a></li>
                     <li><a href="https://github.com/hamzaraza77094" class="bubble"><button class="grow bubble rounded-button">Github</button></a></li>
-                    <li><a href="#" class="bubble"><button class="grow bubble rounded-button-plus">AI Generate Page</button></a></li>
+                    <li><a href="chatGPT.html" class="bubble"><button class="grow bubble rounded-button-plus">AI Generate Page</button></a></li>
                 </ul>
             </div>
         </div>       

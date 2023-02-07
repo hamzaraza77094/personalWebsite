@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .about,
+  .how-it-was-made {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-bottom: 20px;
+  }
+
+  /* Nav CSS */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #3D405B;
+    border-radius: 25px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+  }
+  
+  a {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #A64158;
+    text-decoration: none;
+    color: #F2CC8F;
+  }
+  
+  a:hover {
+    background-color: #A64158;
+  }
+  
+
+  .grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.grow:hover { 
+    color: white;
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+
+/* End of Nav CSS */
