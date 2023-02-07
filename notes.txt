@@ -1,0 +1,6 @@
+Color Scheme: 
+    #F4F1DE : a light beige 
+    #3D405B : the rich blue one
+    #F2CC8F : The gold one
+    #A64158 : The rich red one
+

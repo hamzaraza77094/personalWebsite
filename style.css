@@ -1,0 +1,145 @@
+body {    
+    background: #F4F1DE;
+} 
+  
+.full-background {
+    background: #3D405B;
+    border-radius: 25px;
+    padding: 75px;
+    max-width: 1000px;
+    text-align: center;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%)
+}
+
+
+.rcorners1 {
+  border-radius: 25px;
+  background: #3D405B;
+  padding: 20px; 
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.header {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.top-words {
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: #F2CC8F;
+}
+
+.bottom-words {
+    margin: 5px;
+    text-align: center;
+    font-size: 62px;
+    color: #F2CC8F;
+}
+
+.table {
+    display:inline;    
+    background: black;
+    border-radius: 25px;
+}
+
+.button-list {
+    list-style: none;
+    /* padding: 20px; */
+    /* margin: 50px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none !important;
+
+  }
+  
+  .button-list li {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none !important;
+  }
+
+a {
+    color: #F2CC8F;
+    text-decoration: none !important;
+}
+  
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.grow:hover { 
+    color: white;
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+
+.rounded-button {
+    padding: 20px 40px;
+    border-radius: 20px;
+    display: inline;
+    font-size: 24px;
+    list-style: none;
+    /* background-color: ; */
+    color: #F2CC8F;
+    background: #A64158;
+    border: none;
+  }
+  
+  .rounded-button a {
+    text-decoration: none !important;
+}
+
+.bubble {
+    text-decoration: none !important;;
+}
+
+.button-list2 {
+    list-style: none;
+    /* padding: 20px; */
+    /* margin: 50px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none !important;
+
+  }
+  
+  .button-list2 li {
+    display: inline-block;
+    margin-right: 200px;
+    text-decoration: none !important;
+  }
+
+  .rounded-button-plus {
+    padding: 20px 40px;
+    border-radius: 20px;
+    display: inline;
+    font-size: 24px;
+    list-style: none;
+    /* background-color: ; */
+    white-space: nowrap;
+    color: #F2CC8F;
+    background: #A64158;
+    border: none;
+  }
+  
+  .rounded-button-plus a {
+    text-decoration: none !important;
+}
