@@ -126,8 +126,9 @@ nav {
 
   .ymcstat {
     margin-top: -10px;
-    width: 75%;
-    height: 75%;
+    margin-left: 60px;
+    width: 60%;
+    height: 60%;
   }
 
 
@@ -146,3 +147,10 @@ nav {
   background-color: #000;
   color: #fff; 
 }
+
+.picture-section a {
+  text-decoration: none;
+  background-color: #F4F1DE;
+  color: #fff;
+}
+

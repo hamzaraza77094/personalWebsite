@@ -68,8 +68,14 @@ nav .toggle-button {
     justify-content: center;
 }
 
-.ymcstat, .maskaty {
-    width: 25%;
+.ymcstat {
+    width: 50%;
+    height: auto;
+    margin: 1rem;
+}
+
+.maskaty {
+    width: 60%;
     height: auto;
     margin: 1rem;
 }
@@ -90,4 +96,14 @@ nav .toggle-button {
     font-size: 1.2rem;
     padding-left: 250px;
     padding-right: 250px;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.grow:hover { 
+    color: white;
+    transform: scale(1.1); 
+    cursor: pointer;
 }
